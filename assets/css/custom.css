@@ -1,0 +1,99 @@
+.centre-text{
+    text-align: center;
+   
+}
+
+
+.skills-head{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-weight: 0;
+}
+
+.skills-list{
+    margin-left: 15px;
+}
+
+.skills-list li{
+    margin-bottom: -37px;
+}
+
+.grid-2{
+    margin-top: 40px;
+    margin-bottom: 70px;
+    display: grid;
+    row-gap: 5px;
+    grid-template-columns: 50% 50%;
+    margin-right: -10px;
+}
+
+.grid-item{
+    box-shadow: 0 1px 4px 0 rgba( 12, 13, 15, 0.50 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    width: 98%;
+    height: 250px;
+    padding-left: 25px;
+    padding-right: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.grid-item:hover{
+    box-shadow: 0 0.5px 2px 0 rgba( 80, 80, 80, 0.50 );
+}
+
+.grid-item h3{
+    margin-top: 15px;
+    text-transform: none !important;
+}
+
+.desc{
+    margin-top: -17px;
+    height: 75px;
+   
+}
+
+.stack{
+    margin-top: 65px;
+    margin-bottom: -35px;
+}
+
+.flexed{
+    display: flex;
+  }
+
+.flexed2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 35px;
+}
+
+.flexed2 img{
+    width: 20px;
+    margin-top: -23px;
+    margin-right: 5px;
+}
+
+.flexed2 p{
+    margin-top: 10px;
+}
+
+.link{
+    text-decoration: none !important;
+    border: 0;
+}
+
+@media only screen and (max-width: 40em) {
+    .grid-2{
+         grid-template-columns: 100%;
+    }                
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+    
+}
+
